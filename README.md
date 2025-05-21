@@ -36,7 +36,7 @@ Use pipenv to manage packages:
 -pipenv install
 -pipenv shell
 
-🔹Customer
+🔹Customer Validation
 
 ✅ name (1–15 characters, string)
 
@@ -48,7 +48,7 @@ Use pipenv to manage packages:
 
 ✅ most_aficionado(coffee) → customer who spent most on that coffee
 
-🔹Coffee
+🔹Coffee validation
 ✅ name (at least 3 characters, string)
 
 ✅ orders() → list of Order instances
@@ -60,7 +60,7 @@ Use pipenv to manage packages:
 ✅ average_price() → average price of orders
 
 
-🔹Order
+🔹Order validation
 ✅ Validates:
 
 customer: Customer instance
